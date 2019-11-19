@@ -1,6 +1,18 @@
 # kriging-contour
 对离散点进行克里金插值并输出矢量等值面
 
+安装
+```
+git clone git@github.com:FreeGIS/kriging-contour.git
+cd kriging-contour
+npm install
+```
+编译
+```
+npm run pretest
+```
+
+
 使用说明：freegis.kriging_contour(dataset,weight_field,kriging_params,weight_breaks);
 ```
 dataset：geojson格式的featureclass数据集，feature是图形是点
